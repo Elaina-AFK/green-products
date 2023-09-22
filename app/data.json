@@ -1,0 +1,57 @@
+[
+  {
+    "id": 6,
+    "name": "EcoTech Solar Charger",
+    "subtitle": "Harness the Power of the Sun",
+    "description": {
+      "paragraph1": "Introducing our revolutionary EcoTech Solar Charger, a true marvel of sustainable technology. This eco-friendly device allows you to charge your electronic gadgets using the power of the sun. Say goodbye to energy bills and harmful carbon emissions. The EcoTech Solar Charger is designed with the environment in mind, featuring high-efficiency solar panels that effortlessly convert sunlight into clean, renewable energy.",
+      "paragraph2": "Not only is the EcoTech Solar Charger an eco-conscious choice, but it's also incredibly versatile. With multiple USB ports and a built-in battery, you can charge your smartphone, tablet, or any USB-powered device day or night. The durable, hand-made construction ensures reliability and longevity, making it an ideal companion for outdoor adventures, emergencies, or everyday use. Carry it with you wherever you go, and you'll never run out of power again.",
+      "paragraph3": "Join the green technology revolution and make a positive impact on the planet with the EcoTech Solar Charger. By choosing this sustainable charging solution, you reduce your carbon footprint while enjoying the convenience of renewable energy. Take the first step towards a greener future and experience the benefits of clean, guilt-free power. Embrace the sun, harness its energy, and charge your devices responsibly with EcoTech."
+    },
+    "image": "/green.png"
+  },
+  {
+    "id": 7,
+    "name": "EcoTech Solar Charger Pro",
+    "subtitle": "Advanced Solar Charging Technology",
+    "description": {
+      "paragraph1": "Upgrade to the EcoTech Solar Charger Pro, the pinnacle of green technology innovation. This advanced solar charger takes sustainable charging to the next level with cutting-edge features. Harness the power of the sun like never before and make a lasting impact on the environment.",
+      "paragraph2": "With its high-capacity battery, the EcoTech Solar Charger Pro offers extended charging times and can power multiple devices simultaneously. Its sleek and rugged design ensures durability and portability, making it perfect for outdoor enthusiasts and eco-conscious consumers alike.",
+      "paragraph3": "Experience the future of clean energy with the EcoTech Solar Charger Pro. Say goodbye to disposable batteries and embrace renewable power. Make a statement by choosing a sustainable and eco-friendly charging solution that benefits both you and the planet."
+    },
+    "image": "/../green.png"
+  },
+  {
+    "id": 8,
+    "name": "EcoTech Solar Backpack",
+    "subtitle": "Solar-Powered On-the-Go",
+    "description": {
+      "paragraph1": "Introducing the EcoTech Solar Backpack, the ultimate eco-friendly solution for staying powered up on your adventures. This innovative backpack features built-in solar panels that capture sunlight and convert it into electricity, allowing you to charge your devices while on the move.",
+      "paragraph2": "Whether you're hiking, biking, or simply commuting to work, the EcoTech Solar Backpack keeps you connected. It's equipped with a spacious interior, multiple compartments, and a comfortable design for all-day wear. Stay green and stay charged with the EcoTech Solar Backpack.",
+      "paragraph3": "Join the sustainable fashion movement and make a positive impact on the environment with the EcoTech Solar Backpack. It's not just a bag; it's a statement of your commitment to a greener future."
+    },
+    "image": "/../green.png"
+  },
+  {
+    "id": 9,
+    "name": "EcoTech Solar Lantern",
+    "subtitle": "Illuminating the Eco-Friendly Way",
+    "description": {
+      "paragraph1": "Light up your life with the EcoTech Solar Lantern, a bright idea for sustainable lighting. This eco-friendly lantern harnesses the power of the sun to provide illumination wherever you need it. Whether you're camping, experiencing a power outage, or simply enjoying a peaceful evening on the patio, the EcoTech Solar Lantern has got you covered.",
+      "paragraph2": "With its efficient solar panels and long-lasting battery, this lantern offers hours of continuous light. It's portable, easy to use, and built to withstand the elements. Say goodbye to disposable batteries and hello to renewable energy with the EcoTech Solar Lantern.",
+      "paragraph3": "Make a brighter choice for your lighting needs with the EcoTech Solar Lantern. It's a versatile and eco-conscious lighting solution that's perfect for both outdoor adventures and everyday use."
+    },
+    "image": "/../green.png"
+  },
+  {
+    "id": 10,
+    "name": "EcoTech Solar Water Purifier",
+    "subtitle": "Clean Water, Powered by the Sun",
+    "description": {
+      "paragraph1": "Ensure access to clean, purified water with the EcoTech Solar Water Purifier. This innovative device combines solar power with advanced purification technology to deliver safe drinking water in any environment. No need for electricity or disposable filters – let the sun do the work.",
+      "paragraph2": "The EcoTech Solar Water Purifier is compact and portable, making it ideal for camping, hiking, and emergency preparedness. It removes harmful contaminants and pathogens, ensuring that you have access to clean water wherever you go.",
+      "paragraph3": "Take control of your water purification needs with the EcoTech Solar Water Purifier. It's a sustainable solution that provides peace of mind, knowing that you can always have access to safe and clean drinking water, thanks to the power of the sun."
+    },
+    "image": "/../green.png"
+  }
+]
