@@ -1,32 +1,28 @@
 "use client";
 import Image from "next/image";
-import Green from "../public/green.png";
 
-interface Data {
-  id: number;
+interface Products {
+  id: string;
   name: string;
   subtitle: string;
-  description: {
-    paragraph1: string;
-    paragraph2: string;
-    paragraph3: string;
-  };
+  description: string;
   image: string;
 }
 
-export function Card({ data }: { data: Data }) {
+export function Card({ data }: { data: Products }) {
   return (
-    <a href={"/" + data.id}>
-      <div className="h-[50vh] bg-gradient-to-b from-purple-900 to-slate-700 rounded-3xl justify-center flex flex-col w-64">
+    <a href={"/"} className="h-[50vh] max-h-[50vh]">
+      <div className="bg-gradient-to-b from-purple-900 to-slate-700 rounded-3xl justify-center flex flex-col w-64">
         <Image
           alt="product"
           width={100}
           height={100}
           className="bg-slate-600 w-full h-full rounded-t-3xl object-cover aspect-auto"
-          src={Green}
+          src={data.image}
         />
         <article className=" w-full h-[50px]">
-          <h3 className="text-center">Green Products</h3>
+          <h3 className="text-center">{data.name}</h3>
+          <h3 className="text-center">{data.subtitle}</h3>
         </article>
       </div>
     </a>

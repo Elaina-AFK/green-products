@@ -25,9 +25,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: 100vh;
 }
 
 * {
   box-sizing: border-box;
-  border: red solid 1px;
+  border: 0.1px solid red;
 }
