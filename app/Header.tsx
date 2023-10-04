@@ -1,10 +1,9 @@
 import Link from "next/link";
-import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <header className="h-20 bg-[#295417] w-screen pl-10 text-[#c1ff72] grid grid-cols-12 place-items-center">
-      <Link href={"/"} className="flex items-center">
+    <header className="bg-[#295417] w-screen text-[#c1ff72] flex justify-around max-md:flex-col max-md:justify-between items-center text-center gap-y-4 p-0 m-0">
+      <Link href={"/"} className="flex items-center my-2">
         <svg
           height={56}
           width={56}
@@ -33,7 +32,26 @@ export default function Header() {
           <h1 className="whitespace-nowrap">รักษ์โลก</h1>
         </hgroup>
       </Link>
-      <SearchBar />
+      <nav className="w-1/3 max-md:w-full h-full">
+        <ul className="flex w-full justify-around max-md:flex-col max-md:items-stretch">
+          <li className="w-full">
+            <Link
+              href={"/aboutus"}
+              className="p-1.5 block w-max mx-auto max-md:w-full"
+            >
+              เกี่ยวกับเรา
+            </Link>
+          </li>
+          <li className="w-full">
+            <Link
+              href={"/products"}
+              className="p-1.5 block w-max mx-auto max-md:w-full"
+            >
+              ผลิตภัณฑ์สีเขียว
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
