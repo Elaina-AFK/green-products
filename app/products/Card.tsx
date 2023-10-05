@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,19 +10,19 @@ interface Products {
 
 export function Card({ data }: { data: Products }) {
   return (
-    <section className="w-full h-full relative brightness-50 hover:brightness-75 transition-all duration-150 grid grid-cols-12 place-items-end">
+    <section className="relative w-full h-full transition-all duration-150 grid grid-cols-12 place-items-end m-0 overflow-hidden">
       <Image
+        unoptimized
         src={data.image}
-        width={900}
-        height={900}
+        fill={true}
         alt={data.name}
-        className="absolute hover:scale-125 transition-all left-28 top-20 -z-10 duration-700 rounded-2xl"
+        className="hover:scale-125 transition-all z-10 duration-700 rounded-2xl aspect-video object-cover overflow-hidden"
       />
       <Link
         href={`/products/${data.path}`}
-        className="bg-gradient-to-r from-slate-900 via-black col-start-7 col-span-5 my-8 flex justify-between items-center group rounded-3xl"
+        className="z-20 bg-gradient-to-r from-slate-900 via-black col-start-7 col-span-5 my-8 flex justify-between items-center group rounded-3xl"
       >
-        <h1 className="text-5xl font-serif font-extrabold p-2">{data.name}</h1>
+        <h1 className="text-4xl font-serif font-extrabold p-2">{data.name}</h1>
         <svg
           className="fill-emerald-500 aspect-square w-32 group-hover:animate-pulse group-hover:fill-teal-500"
           viewBox="0 0 20 20"

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Product1() {
   return (
@@ -10,6 +9,7 @@ export default function Product1() {
         </h1>
         <figure className="grid place-items-center">
           <Image
+            unoptimized
             src={"/กระถางขวด.png"}
             width={600}
             height={900}
