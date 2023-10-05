@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="grid h-auto grid-cols-12 gap-y-28 px-8 py-6 max-md:px-1">
-      <article className="col-span-6 flex flex-col justify-center">
+    <main className="grid h-auto grid-cols-12 gap-y-28 px-8 py-6 max-md:px-1 max-md:flex max-md:flex-col">
+      <article className="col-span-6 flex flex-col justify-center max-md:order-2">
         <h2>BCG Model คืออะไร?</h2>
         <p className="max-w-prose">
           เป็นการพัฒนาเศรษฐกิจแบบองค์รวม ที่จะพัฒนาเศรษฐกิจ 3 มิติไปพร้อมกัน
@@ -18,7 +18,7 @@ export default function Home() {
           แต่ต้องพัฒนาควบคู่ไปกับการพัฒนาสังคมและการรักษาสิ่งแวดล้อมได้อย่างสมดุลให้เกิดความมั่นคงและยั่งยืนไปพร้อมกัน
         </p>
       </article>
-      <figure className="col-span-5 col-start-8">
+      <figure className="col-span-5 col-start-8 max-md:order-1">
         <div className="relative w-full aspect-square">
           <Image
             unoptimized
@@ -35,13 +35,14 @@ export default function Home() {
             <Link
               target="_blank"
               href={"https://www.thairath.co.th/news/sustainable/2699440"}
+              className="inline"
             >
               https://www.thairath.co.th/news/sustainable/2699440
             </Link>
           </em>
         </figcaption>
       </figure>
-      <section className="col-span-12">
+      <section className="col-span-12 max-md:order-3">
         <h2 className="text-center">ประโยชน์ของ BCG Model</h2>
         <figure>
           <div className="w-full aspect-video relative">

@@ -16,13 +16,15 @@ export function Card({ data }: { data: Products }) {
         src={data.image}
         fill={true}
         alt={data.name}
-        className="hover:scale-125 transition-all z-10 duration-700 rounded-2xl aspect-video object-cover overflow-hidden"
+        className="hover:scale-125 transition-all z-10 duration-700 aspect-video object-cover overflow-hidden"
       />
       <Link
         href={`/products/${data.path}`}
-        className="z-20 bg-gradient-to-r from-slate-900 via-black col-start-7 col-span-5 my-8 flex justify-between items-center group rounded-3xl"
+        className="z-20 bg-gradient-to-r from-slate-900 via-black col-start-7 col-span-5 my-8 flex justify-between items-center group rounded-3xl max-md:col-start-4 max-md:col-span-10"
       >
-        <h1 className="text-4xl font-serif font-extrabold p-2">{data.name}</h1>
+        <h1 className="text-3xl font-serif font-extrabold p-2 whitespace-nowrap">
+          {data.name}
+        </h1>
         <svg
           className="fill-emerald-500 aspect-square w-32 group-hover:animate-pulse group-hover:fill-teal-500"
           viewBox="0 0 20 20"

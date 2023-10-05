@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function AboutUs() {
   return (
-    <main className="grid h-auto grid-cols-12 gap-y-32 px-8 py-16 max-md:px-1 relative">
+    <main className="grid h-auto grid-cols-12 gap-y-32 px-8 py-16 max-md:px-1 relative max-md:flex max-md:flex-col">
       <Back />
-      <section className="col-span-3 flex flex-col justify-center">
+      <section className="col-span-3 flex flex-col justify-center max-md:mt-7 max-md:order-2 max-md:items-center">
         <h2>Who are we?</h2>
         <p className="max-w-prose">
           พวกเรามาจากมหาวิทยาลัยพายัพ จังหวัดเชียงใหม่
@@ -14,7 +14,7 @@ export default function AboutUs() {
           (GE 144)
         </p>
       </section>
-      <figure className="col-span-9 col-start-5">
+      <figure className="col-span-9 col-start-5 max-md:order-1">
         <div className="aspect-video w-full relative">
           <Image
             unoptimized
@@ -25,7 +25,7 @@ export default function AboutUs() {
           />
         </div>
       </figure>
-      <figure className="col-span-4">
+      <figure className="col-span-4 max-md:order-3">
         <div className="relative aspect-square w-full max-w-xs mx-auto">
           <Image
             unoptimized
@@ -36,7 +36,7 @@ export default function AboutUs() {
           />
         </div>
       </figure>
-      <section className="col-span-7 col-start-6 flex flex-col justify-center">
+      <section className="col-span-7 col-start-6 flex flex-col justify-center max-md:order-4 max-md:items-center">
         <h2>จัดทำโดย</h2>
         <ol className="max-w-prose pl-4">
           <li>Mr Le Tan Loi 6601150070</li>
@@ -55,7 +55,7 @@ function Back() {
   return (
     <Link
       href={"/"}
-      className="z-10 absolute text-xl flex stroke-white items-center cursor-pointer"
+      className="z-10 absolute text-xl flex stroke-white items-center cursor-pointer max-md:-top-36 max-md:left-0"
     >
       <svg
         width="3em"
@@ -72,7 +72,7 @@ function Back() {
           d="m46.196 16.205l-19.392 19.46l19.392 19.46"
         ></path>
       </svg>
-      <label className="-ml-3 -z-10">Back</label>
+      <label className="-ml-3 cursor-pointer">Back</label>
     </Link>
   );
 }

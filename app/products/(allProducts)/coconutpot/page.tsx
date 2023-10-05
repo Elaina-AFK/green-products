@@ -60,7 +60,7 @@ export default function Product1() {
           🎥 วิดีโอ
         </h2>
         <iframe
-          className="aspect-video w-full max-w-3xl mx-auto"
+          className="aspect-video w-full h-full max-w-3xl mx-auto"
           width="905"
           height="509"
           src="https://www.youtube.com/embed/MDAsdm787-o"
